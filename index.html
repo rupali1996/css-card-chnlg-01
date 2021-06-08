@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="media.css"> 
+
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body {
+      background-color: hsl(233, 47%, 7%);
+      Font-size: 15px;
+      
+    }
+    
+
+   .row{
+     
+     display: flex;
+     height: 325px;
+     background-color: hsl(244, 38%, 16%);
+     border-radius: 10px;
+     max-width: 750px;
+     margin: auto;
+     margin-top: 10%;
+     
+    
+     
+   }
+
+   img{
+     height: 325px;
+     width: 350px;
+     border-bottom-right-radius: 10px;
+     border-top-right-radius: 10px;
+     opacity: 0.5;
+
+   }
+
+   #col1{
+     padding: 20px;
+   }
+
+   #col1 h1{
+     color: hsl(0, 0%, 100%);
+     font-family: 'Inter', sans-serif;
+     padding: 10px;
+  
+   }
+
+
+   #col1 p{
+     padding: 10px;
+     color: hsla(0, 0%, 100%, 0.75);
+     font-family: 'Lexend Deca', sans-serif;
+     font-size: 12px;
+     
+     
+   }
+
+   #info {
+     display: flex;
+     font-family: 'Lexend Deca', sans-serif; 
+     
+     
+   }
+
+   #info p{
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 20px;
+   }
+
+   #c1{
+     margin-right: 25px;
+     text-align: left;
+     padding: 10px;
+     color: hsl(0, 0%, 100%);
+     
+   }
+
+   #c2{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 10px;
+    color: hsla(0, 0%, 100%, 0.75);
+   }
+
+   #col2{
+     background-color: purple;
+     border-bottom-right-radius: 10px;
+     border-top-right-radius: 10px;
+   }
+
+
+
+   
+
+  </style>
+</head>
+<body>
+
+ <div class="row">
+   <div class="column" id="col1">
+     <h1>Get <span style="color: hsl(277, 64%, 61%);">insights</span> that help your business grow.</h1>
+     <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+      experience, and overall efficiency.</p>
+      <div id="info">
+      <p> <span style="font-size: 20px;"><b>10k+</b> </span> <br /> COMPANIES</p>
+      <p> <span style="font-size: 20px;"><b>314</b></span>  <br />TEMPLATES</p>
+      <p> <span style="font-size: 20px;"><b>12m+</b></span>   <br /> QUERIES</p>
+      </div>
+   </div>
+
+   <div class="column" id="col2">
+     <img src="./images/image-header-desktop.jpg" alt="">
+   </div>
+ </div>
+
+  <!-- Get insights that help your business grow.
+
+  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+  experience, and overall efficiency.
+
+  10k+ companies
+  314 templates
+  12m+ queries -->
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
